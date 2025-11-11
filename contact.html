@@ -12,8 +12,29 @@
 <body>
 
     <header class="main-header">
-        <!-- ... Same header as index.html ... -->
-    </header>
+    <div class="container">
+        <a href="index.html" class="logo">
+            <img src="assets/images/logo-white.png" alt="Green Society Nepal Logo">
+        </a>
+        <nav class="main-nav">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="members.html">Members</a></li>
+                <li><a href="news.html">News & Events</a></li>
+                <li><a href="documents.html">Documents</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="donation.html" class="btn btn-primary">Donate Now</a>
+        <button class="hamburger" id="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+</header>
 
     <main>
         <!-- Page Header -->
@@ -84,8 +105,43 @@
     </main>
 
     <footer class="main-footer">
-        <!-- ... Same footer as index.html ... -->
-    </footer>
-    <script src="assets/js/main.js"></script>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-column about">
+                <img src="assets/images/logo-white.png" alt="Green Society Nepal Logo" class="footer-logo">
+                <p>A non-profit organization dedicated to nature conservation and community empowerment in Chitwan, Nepal.</p>
+            </div>
+            <div class="footer-column links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="donation.html">Donate</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column contact">
+                <h4>Contact Us</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Sauraha, Chitwan, Nepal</p>
+                <p><i class="fas fa-phone"></i> +977-9845050529</p>
+                <p><i class="fas fa-envelope"></i> info@greensocietynepal.org</p>
+            </div>
+            <div class="footer-column social">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Green Society Nepal. All Rights Reserved. Redesigned by Gemini.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- IMPORTANT: Don't forget the JavaScript file link right before the closing body tag -->
+<script src="assets/js/main.js"></script>
 </body>
 </html>
